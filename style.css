@@ -1,0 +1,55 @@
+/* * {
+border:1px solid black;
+}
+html, body {
+text-align: center;
+}
+*/
+.quote {
+margin:auto;
+padding: 25px;
+font-family: 'Taviraj', serif;
+font-size: 35px;
+text-align: center;
+
+}
+
+.author{
+text-align: right;
+font-family: 'Cormorant Garamond', serif;
+font-size: 25px;
+
+}
+
+.content {
+width: 50%;
+margin: auto;
+text-align: right;
+
+}
+
+body {
+
+
+}
+
+html, body, .view {
+	height: 100%;
+
+}
+
+.view {
+	background: url("https://source.unsplash.com/featured/"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+/*
+.imgA {
+	background: url("https://source.unsplash.com/random/1920x1280");
+}
+
+.imgB {
+	background: url("https://source.unsplash.com/random/1366x768");
+}
+*/
