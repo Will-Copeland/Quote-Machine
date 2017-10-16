@@ -1,21 +1,21 @@
 .quote {
-margin:auto;
-padding: 25px;
-font-family: 'Taviraj', serif;
-font-size: 35px;
-text-align: center;
+	margin:auto;
+	padding: 25px;
+	font-family: 'Taviraj', serif;
+	font-size: 35px;
+	text-align: center;
 }
 
 .author{
-text-align: right;
-font-family: 'Cormorant Garamond', serif;
-font-size: 25px;
+	text-align: right;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 25px;
 }
 
 .content {
-width: 50%;
-margin: auto;
-text-align: right;
+	width: 50%;
+	margin: auto;
+	text-align: right;
 }
 
 html, body, .view {
