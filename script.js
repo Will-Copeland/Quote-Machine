@@ -12,7 +12,6 @@ var keyWords = ["landscape","technology","outdoor", "cool", "sky", "water","dog"
 "cold","frozen","frost","sea","glacier"];
 
 
-
 function nQ() { //New Quote function. Also pulls new picture
 	var num = Math.floor(Math.random()* keyWords.length); //picks random keyword
 	
