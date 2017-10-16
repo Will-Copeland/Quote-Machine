@@ -1,4 +1,3 @@
-
 var author = ""; //becomes authors name encoded for Wiki linking
 
 var wikiURL = "https://en.wikipedia.org/wiki/"; //Wiki link base
@@ -6,7 +5,11 @@ var wikiURL = "https://en.wikipedia.org/wiki/"; //Wiki link base
 var url = 'url("https://source.unsplash.com/1920x1080/?'; //image source url. 
 
 //image filtering keywords
-var keyWords = ["landscape","technology","outdoor", "cool", "sky", "water","dog","cat", "wallpaper","nature", "team", "space", "coffee","eruption", "smoke", "mountain", "storm", "crater", "ravine", "formation", "weather", "whirlwind", "galaxy", "star", "milkyway","vsco", "tree","fog","sand","desert","sunset","hill", "ice","snow","slope","chalet","cold","frozen","frost","sea","glacier"];
+var keyWords = ["landscape","technology","outdoor", "cool", "sky", "water","dog","cat", 
+"wallpaper","nature","team", "space", "coffee","eruption", "smoke", "mountain", "storm", 
+"crater", "ravine","formation", "weather", "whirlwind", "galaxy", "star", "milkyway",
+"vsco", "tree","fog","sand","desert","sunset","hill", "ice","snow","slope","chalet",
+"cold","frozen","frost","sea","glacier"];
 
 
 
@@ -30,11 +33,9 @@ function nQ() { //New Quote function. Also pulls new picture
 
 
 function postTweet(quote, author) {
-
 	window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + quote + '" ' + author));
 
-
-console.log('https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + quote + '"' + author));
+	console.log('https://twitter.com/intent/tweet?text=' + encodeURIComponent('"' + quote + '"' + author));
 };
 
 
@@ -53,6 +54,7 @@ $(document).ready(function() {
 		window.open(newUrl); 
 	});
 	
+	//Enables twitter-posting
 	$('#twitter').on('click', function() {
 		quote = $('.quote').html();
 		author = $('.author').html();
@@ -60,5 +62,3 @@ $(document).ready(function() {
 	});
 	
 });
-	
-	
